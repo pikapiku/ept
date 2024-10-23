@@ -3,6 +3,7 @@ import questions from './data.json';
 import './App.css'
 import title from '/title.svg'
 
+
 function App() {
 	const [tasks, setTasks] = useState(questions);
 	// State to track whether the total score is displayed
@@ -53,7 +54,7 @@ function App() {
 		if (!showTotal) {
 			return (
 				<div className="card">
-					<p><i> The official e-dating quiz that evaluates your e-dating score accurately. The questions cover all aspects of the online dating world, from the most common to the most extreme experiences. <u>Warning:</u> This quiz references self harm.</i> </p>
+					<p><i> The official e-dating quiz that evaluates your e-dating score. The questions cover all aspects of the online dating world, from the most common to the most extreme experiences. <u>Warning:</u> This quiz references self harm.</i> </p>
 					<br />
 					<p><b>Disclaimer: these questions <u>ONLY</u> apply to the online environment.<br />&apos;them&apos; refers to an online partner or love interest.</b></p>
 					<br />
@@ -97,7 +98,7 @@ function App() {
 
 	return (
 		<div className="container">
-			<img src={title} className="title" alt="Edater Purity Test" />
+			<img src={title} className="title" alt="Edater Love Test" />
 			{!showTotal ? (
 				<>
 					{renderDescription()}
@@ -116,7 +117,7 @@ function App() {
 					{renderDescription()}
 					<br />
 					<div className="card">
-						<p><b>Your e-dating purity score:</b></p>
+						<p><b>Your e-dating love score:</b></p>
 						<br />
 						<h1 className="score-value">{getTotalChecked()}</h1>
 						<p style={{ color: "#EC83A8" }}>──── ౨ৎ ────</p>
