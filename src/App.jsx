@@ -116,7 +116,7 @@ function App() {
 					{renderDescription()}
 					<br />
 					<div className="card">
-						<p><b>Your e-dating purity score:</b></p>
+						<p><b>tYour e-dating purity score:</b></p>
 						<br />
 						<h1 className="score-value">{getTotalChecked()}</h1>
 						<p style={{ color: "#EC83A8" }}>──── ౨ৎ ────</p>
