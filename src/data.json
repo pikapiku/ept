@@ -1,6 +1,6 @@
 [
 	{
-		"category": "General Questions",
+		"category": "General",
 		"items": [
 			{ "question": "Crushed on someone online?", "checked": false },
 			{ "question": "Flirted online?", "checked": false },
@@ -23,7 +23,7 @@
 		"category": "Gaming",
 		"items": [
 			{
-				"question": "Played Valorant, Roblox, League of Legends or Overwatch with an online love interest?",
+				"question": "Played Valorant, Roblox, League of Legends or Overwatch with your online love interests?",
 				"checked": false
 			},
 			{ "question": "Played co-op games?", "checked": false },
@@ -31,6 +31,10 @@
 			{ "question": "Played drinking games?", "checked": false },
 			{
 				"question": "Placed your Minecraft bed next to theirs?",
+				"checked": false
+			},
+			{
+				"question": "Sent a friend request after a game due to their voice or performance?",
 				"checked": false
 			},
 			{
@@ -63,10 +67,6 @@
 			{ "question": "Made barking or meowing sounds?", "checked": false },
 			{
 				"question": "Communicated with them on multiple platforms simultaneously?",
-				"checked": false
-			},
-			{
-				"question": "Used text-based emoji ':3' religiously?",
 				"checked": false
 			},
 			{ "question": "Called for over 24 hours?", "checked": false },
@@ -120,7 +120,6 @@
 				"question": "Shared a discord server with just them?",
 				"checked": false
 			},
-			{ "question": "Shared your personal information?", "checked": false },
 			{ "question": "Shared your darkest secrets?", "checked": false },
 			{ "question": "Lied about your age?", "checked": false },
 			{
@@ -150,8 +149,7 @@
 				"checked": false
 			},
 			{ "question": "Felt your mood depended on them?", "checked": false },
-			{ "question": "Cut their name into your body?", "checked": false },
-			{ "question": "Worn their blood in a necklace?", "checked": false }
+			{ "question": "Cut their name into your body?", "checked": false }
 		]
 	},
 	{
@@ -159,6 +157,7 @@
 		"items": [
 			{ "question": "Sent sexually suggestive messages?", "checked": false },
 			{ "question": "Exchanged selfies?", "checked": false },
+			{ "question": "Sent a hand or thigh picture?", "checked": false },
 			{ "question": "Sent a 'thirst-trap'?", "checked": false },
 			{ "question": "Sent a sexually explicit picture?", "checked": false },
 			{
@@ -169,7 +168,6 @@
 				"question": "Sent a sexually explicit picture unsolicited?",
 				"checked": false
 			},
-			{ "question": "Been blue-balled?", "checked": false },
 			{ "question": "Received or sent a cum tribute?", "checked": false },
 			{ "question": "Discussed kinks?", "checked": false },
 			{
@@ -189,7 +187,11 @@
 				"question": "Had esex with a remote-controlled sex toy involved?",
 				"checked": false
 			},
-			{ "question": "Followed masturbation instructions?", "checked": false },
+			{ "question": "Masturbated to their instructions?", "checked": false },
+			{
+				"question": "Masturbated to them without telling them?",
+				"checked": false
+			},
 			{
 				"question": "Been caught IRL while engaged in sexual acts with them?",
 				"checked": false
@@ -236,6 +238,7 @@
 				"question": "Had to take a long drive or flight to finally meet each other?",
 				"checked": false
 			},
+			{ "question": "Had a failed talking stage online?", "checked": false },
 			{ "question": "Every relationship was online?", "checked": false },
 			{
 				"question": "Been in an online relationship less than 3 months?",

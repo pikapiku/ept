@@ -54,7 +54,7 @@ function App() {
 		if (!showTotal) {
 			return (
 				<div className="card">
-					<p><i> The official e-dating quiz that evaluates your e-dating score. The questions cover all aspects of the online dating world, from the most common to the most extreme experiences. <u>Warning:</u> This quiz references self harm.</i> </p>
+					<p><i>This is the official e-dating quiz that will evaluate your e-dating score. The questions cover all aspects of the online dating world, from the most common to the most extreme experiences. <u>Warning</u>: This quiz references self harm.</i> </p>
 					<br />
 					<p><b>Disclaimer: these questions <u>ONLY</u> apply to the online environment.<br />&apos;them&apos; refers to an online partner or love interest.</b></p>
 					<br />
@@ -64,7 +64,7 @@ function App() {
 		} else {
 			return (
 				<div className="card">
-					<p><i> The official e-dating survey that evaluates your e-dating score accurately. The questions cover all aspects of the online dating world, from the most common to the most extreme experiences. </i></p>
+					<p><i>This is the official e-dating quiz that will evaluate your e-dating score. The questions cover all aspects of the online dating world, from the most common to the most extreme experiences.</i></p>
 				</div>
 			)
 		}
@@ -117,12 +117,12 @@ function App() {
 					{renderDescription()}
 					<br />
 					<div className="card">
-						<p><b>Your e-dating love score:</b></p>
+						<p><b>Your E-Dating Love Score:</b></p>
 						<br />
 						<h1 className="score-value">{getTotalChecked()}</h1>
 						<p style={{ color: "#EC83A8" }}>──── ౨ৎ ────</p>
 						<br />
-						<p style={{ color: "#EC83A8" }}><i>Your score is the total amount of questions you ticked yes to.</i></p>
+						<p style={{ color: "#EC83A8" }}><i> The score represents the total amount of questions you answered &quot;yes&quot; to.</i></p>
 					</div>
 				</div>
 			)}
