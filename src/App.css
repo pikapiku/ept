@@ -44,13 +44,12 @@ body {
 .title {
   margin-top: 40px;
   margin-bottom: 12px;
-
 }
 
 /* General card component */
 .card {
   background: #FFE4EC;
-  border: 2px solid #EC83A8;
+  border: 2px solid #f53e7e;
   border-radius: 10px;
   padding: 20px;
   max-width: 650px;
@@ -69,7 +68,7 @@ body {
 
 /* Question section header component */
 .section-header {
-  background-color: #EC83A8;
+  background-color: #f53e7e;
   color: white;
   font-weight: bold;
   padding: 2px 5px;
@@ -135,7 +134,7 @@ input[type="checkbox"] {
   background: #FFE4EC;
   color: #440747;
   font-size: 16px;
-  border: 2px solid #EC83A8;
+  border: 2px solid #f53e7e;
   border-radius: 10px;
   padding: 10px 15px;
   cursor: pointer;
@@ -143,18 +142,18 @@ input[type="checkbox"] {
 }
 
 .button:hover {
-  background-color: #EC83A8;
+  background-color: #f53e7e;
   color: white;
 }
 
 /* Score Value */
 .score-value {
-  color: #BE1884;
+  color: #f53e7e;
   font-size: 65px;
 }
 
 .footer {
-  color: #EC83A8;
+  color: #f53e7e;
   text-align: center;
   padding-bottom: 10px;
 }
