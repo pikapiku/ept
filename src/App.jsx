@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import questions from './data.json';
 import './App.css'
 import title from '/title.svg'
@@ -8,6 +8,17 @@ function App() {
 	const [tasks, setTasks] = useState(questions);
 	// State to track whether the total score is displayed
 	const [showTotal, setShowTotal] = useState(false);
+
+	// Track page views on component mount
+	useEffect(() => {
+		if (window.gtag) {
+			window.gtag('event', 'page_view', {
+				page_title: 'Edater Love Test',
+				page_location: window.location.href,
+				page_path: window.location.pathname
+			});
+		}
+	}, []);
 
 	const handleCheckboxChange = (categoryIndex, itemIndex) => {
 		const updatedTasks = [...tasks];
