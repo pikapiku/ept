@@ -5,11 +5,10 @@
   overscroll-behavior: none;
 }
 
-
-/* disables user select */
+/* Disables user select */
 body {
   user-select: none;
-  /* following is for older browsers */
+  /* Following is for older browsers */
   /* For Safari and Chrome */
   -webkit-user-select: none;
   /* For Firefox */
@@ -73,7 +72,7 @@ body {
   font-weight: bold;
   padding: 2px 5px;
   border-radius: 3px;
-  /* means takes up only space of title */
+  /* Means it takes up only space of title */
   display: inline-block;
   font-size: 16px;
   margin-bottom: 9px;
@@ -84,7 +83,6 @@ body {
   flex-direction: column;
   gap: 6px
 }
-
 
 /* Wraps the 3 elements in a question component: number, label(question, checkbox) */
 .question-wrapper {
@@ -110,7 +108,6 @@ body {
   /* Question fills the rest of the available space so it starts on the LHS */
   flex-grow: 1;
 }
-
 
 /* Checkbox Component */
 input[type="checkbox"] {
